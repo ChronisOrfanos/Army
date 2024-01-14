@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/kylikeio"
+    tools:context=".Kylikeio">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="180dp"
+        android:background="#00FFFFFF"
+        >
+
+
+        <TextView
+            android:id="@+id/Rofimata"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="17dp"
+            android:text="Ροφήματα"
+            android:textSize="20sp"
+            android:textColor="#BE3E1818"
+            android:textStyle="bold"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/Fagito"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="20dp"
+            android:text="Φαγητό"
+            android:textSize="20sp"
+            android:textColor="#BE3E1818"
+            android:textStyle="bold"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/Psilika"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="17dp"
+            android:text="Ψιλικά"
+            android:textSize="20sp"
+            android:textColor="#BE3E1818"
+            android:textStyle="bold"
+            ></TextView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:background="#00FFFFFF"
+        tools:ignore="DuplicateIds">
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:gravity="left|right|center"
+            android:orientation="horizontal">
+
+            <ScrollView
+                android:id="@+id/scroll"
+                android:layout_width="128dp"
+                android:layout_marginBottom="60dp"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                >
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="vertical" >
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="7dp"
+                        android:textStyle="italic"
+                        android:textSize="16sp"
+                        android:layout_marginTop="40dp"
+                        android:text="• Ελληνικό">
+
+                    </TextView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:text="• Φραπέ">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:text="• Espresso">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:text="• Freddo Espresso">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="fill_horizontal"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:text="• Freddo Cappuccino">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="fill_horizontal"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:text="• Κρύα σοκολάτα">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="fill_horizontal"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:text="• Coca colla">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="fill_horizontal"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:text="• Πορτοκαλάδα">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="fill_horizontal"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:text="• Λεμονάδα">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="fill_horizontal"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:text="• Pink Grapefruit">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="fill_horizontal"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:text="• Ice Tea">
+
+                    </TextView> <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="fill_horizontal"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:textStyle="italic"
+                    android:text="• Τσάι">
+
+                </TextView> <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="fill_horizontal"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:textStyle="italic"
+                    android:text="•  Νερό">
+
+                </TextView>
+
+
+
+                </LinearLayout>
+
+
+
+            </ScrollView>
+
+            <ScrollView
+                android:id="@+id/scroll"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                >
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left|right|center"
+                    android:background="#00FFFFFF"
+                    android:orientation="vertical" >
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="6dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:text="•   Πίτα
+                        Λουκάνικο"></TextView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:textSize="16sp"
+                        android:layout_marginTop="15dp"
+                        android:textStyle="italic"
+                        android:text="•   Πίτα
+                        Μπιφτέκι">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:textSize="16sp"
+                        android:layout_marginTop="15dp"
+                        android:textStyle="italic"
+                        android:text="•   Πίτα
+                               Γύρο">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:textSize="16sp"
+                        android:layout_marginTop="15dp"
+                        android:textStyle="italic"
+                        android:text="• Burger">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="fill_horizontal"
+                        android:textSize="16sp"
+                        android:layout_marginTop="15dp"
+                        android:textStyle="italic"
+                        android:text="• Sandwich">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="fill_horizontal"
+                        android:textSize="16sp"
+                        android:layout_marginTop="15dp"
+                        android:textStyle="italic"
+                        android:text="• Toast">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+
+            </ScrollView>
+
+
+            <ScrollView
+                android:id="@+id/scroll"
+                android:layout_width="80dp"
+                android:layout_height="850dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:background="#00FFFFFF"
+                >
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="vertical" >
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:textSize="16sp"
+                        android:layout_marginTop="6dp"
+                        android:textStyle="italic"
+                        android:text="• Μπλοκάκι">
+
+                    </TextView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:textSize="16sp"
+                        android:layout_marginTop="40dp"
+                        android:textStyle="italic"
+                        android:text="Οδοντό
+                        βουρτσα">
+
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <EditText
+        android:id="@+id/edit_order"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginBottom="20dp"
+        android:background="#9C0C0C0C"
+        android:hint="Παραγγελία/ Επίθετο/ Ποσότητα"
+        android:textColor="#086159"
+        android:textColorHint="#086159"></EditText>
+
+
+
+
+
+    <Button
+        android:id="@+id/placeorder"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/send"
+        tools:ignore="OnClick"></Button>
+
+
+
+
+
+
+
+</LinearLayout>

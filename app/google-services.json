@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "141449007468",
+    "firebase_url": "https://maap-3ecb0-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "maap-3ecb0",
+    "storage_bucket": "maap-3ecb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141449007468:android:e9a43c10653824e9cc2349",
+        "android_client_info": {
+          "package_name": "com.example.maap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141449007468-62lrcqig5p31sep8km4pq5vuo4giede9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwkV_2Q-8HD1ItZ2noyCFK1aPl-RFDqhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141449007468-62lrcqig5p31sep8km4pq5vuo4giede9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
